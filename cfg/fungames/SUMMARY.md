@@ -21,24 +21,33 @@
 - **competitive_accurate_weapons.cfg**     
   Weapons have no recoil or spread.
   [Video](https://www.youtube.com/watch?v=vPdkgaHnZuM&list=PLHF999pjo89OlX1XaBLqpl-5728A-P86A&index=7)
-- **competitive_1000hp.cfg**    
-  Players have 1000hp.
-  [Video](https://www.youtube.com/watch?v=57yCeKge8LI&list=PLHF999pjo89OlX1XaBLqpl-5728A-P86A&index=8)
-- **competitive_1hp.cfg**     
-  Players have 1hp and no nades.
-  [Video](https://www.youtube.com/watch?v=Y0BwhnJrkgk&list=PLHF999pjo89OlX1XaBLqpl-5728A-P86A&index=10)
 - **competitive_fast.cfg**      
   Players move twice as fast as normal.
   [Video](https://www.youtube.com/watch?v=K2BMj-SsN18&list=PLHF999pjo89OlX1XaBLqpl-5728A-P86A&index=9)
 - **fungame_invisible.cfg**    
   1v5 where one player is invisible.
   [Video](https://www.youtube.com/watch?v=GBUJ5O7zvKA&list=PLHF999pjo89OlX1XaBLqpl-5728A-P86A&index=6)
+  - **fungame_scout_knives.cfg**    
+  Low gravity environment with knife and scout only.
+  - **fungame_pool_day.cfg**    
+  Some sensible rules for having a fun day by the pool.
 
 ## Other
 
-- **Give shield**     
-  sv_cheats 1; give weapon_shield;
+- **Give shield**  (must be executed by each player after each death)          
+  sv_cheats 1; give weapon_shield; 
   [Video](https://www.youtube.com/watch?v=j7GfAbZ0xWM)
-- **Give bump mine**     
-  sv_cheats 1; give weapon_bumpmine; sv_falldamage_scale 0;
+- **Give bump mine** (must be executed by each player after each death)     
+  sv_cheats 1; give weapon_bumpmine; sv_falldamage_scale 0.1; sv_infinite_ammo 1;
   [Video](https://www.youtube.com/watch?v=-xfapR8Z1p4)
+
+## Requires plugin
+- **competitive_1000hp.cfg**
+  Players have 1000hp.    
+  [Plugin](https://forums.alliedmods.net/showthread.php?p=2737147)    
+  [Video](https://www.youtube.com/watch?v=57yCeKge8LI&list=PLHF999pjo89OlX1XaBLqpl-5728A-P86A&index=8)    
+  Additional commands: mp_buy_allow_grenades 0;
+- **competitive_1hp.cfg**     
+  Players have 1hp and no nades.    
+  [Plugin](https://forums.alliedmods.net/showthread.php?p=2737147)    
+  [Video](https://www.youtube.com/watch?v=Y0BwhnJrkgk&list=PLHF999pjo89OlX1XaBLqpl-5728A-P86A&index=10)    

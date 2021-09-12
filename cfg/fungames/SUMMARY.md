@@ -27,9 +27,9 @@
 - **fungame_invisible.cfg**    
   1v5 where one player is invisible.
   [Video](https://www.youtube.com/watch?v=GBUJ5O7zvKA&list=PLHF999pjo89OlX1XaBLqpl-5728A-P86A&index=6)
-  - **fungame_scout_knives.cfg**    
+- **fungame_scout_knives.cfg**    
   Low gravity environment with knife and scout only.
-  - **fungame_pool_day.cfg**    
+- **fungame_pool_day.cfg**    
   Some sensible rules for having a fun day by the pool.
 
 ## Other

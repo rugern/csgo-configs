@@ -41,13 +41,13 @@
   sv_cheats 1; give weapon_bumpmine; sv_falldamage_scale 0.1; sv_infinite_ammo 1;
   [Video](https://www.youtube.com/watch?v=-xfapR8Z1p4)
 
-## Requires plugin
-- **competitive_1000hp.cfg**
-  Players have 1000hp.    
+## Plugin commands
+
+- **competitive_1000hp**
+  Players have 1000hp: `sm_spawnhp @all 1000`
   [Plugin](https://forums.alliedmods.net/showthread.php?p=2737147)    
   [Video](https://www.youtube.com/watch?v=57yCeKge8LI&list=PLHF999pjo89OlX1XaBLqpl-5728A-P86A&index=8)    
-  Additional commands: mp_buy_allow_grenades 0;
-- **competitive_1hp.cfg**     
-  Players have 1hp and no nades.    
+- **competitive_1hp**     
+  Players have 1hp and no nades: `sm_spawnhp @all 1; rcon mp_buy_allow_grenades 0; rcon mp_restartgame 1` 
   [Plugin](https://forums.alliedmods.net/showthread.php?p=2737147)    
   [Video](https://www.youtube.com/watch?v=Y0BwhnJrkgk&list=PLHF999pjo89OlX1XaBLqpl-5728A-P86A&index=10)    

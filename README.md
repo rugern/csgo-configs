@@ -6,8 +6,8 @@ Check [SUMMARY.md](https://github.com/rugern/csgo-configs/blob/main/cfg/fungames
 for different fungames
 
 ## Plugin commands
-Check [README.md](https://github.com/rugern/csgo-configs/blob/main/plugins/README.md) for an overview of commands for
+Check [plugins README.md](https://github.com/rugern/csgo-configs/blob/main/plugins/README.md) for an overview of commands for
 Dathost server running splewis/csgo-pug-setup and sethealth plugin
 
-## Collection of workshop maps
+## Collection of fun workshop maps
 https://steamcommunity.com/sharedfiles/filedetails/?id=2600005602

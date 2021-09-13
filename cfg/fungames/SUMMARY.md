@@ -1,5 +1,17 @@
 # Fungames overview
+Here's an overview of all fungame config files and other useful commands available on
+the Sølvguttene scrim server. Execute a config with
+```
+rcon exec fungames/<config name>
+```
+(after running `rcon_password <password` for admin rights)
 
+Reset to default configuration with
+```
+rcon exec utils/reset
+```
+
+## Configurations
 - **competitive_respawn.cfg**      
   Players instantly respawn on death. Must defuse or explode bomb to win.
   [Video](https://www.youtube.com/watch?v=yoxFBcG6whA&t=1s)

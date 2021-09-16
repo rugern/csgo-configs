@@ -17,7 +17,7 @@ A collection of useful commands for the Sølvguttene scrim server running splewi
 - rcon_password <password>: Get admin rights on server
 - rcon <command>: Prefix all commands with "rcon" to use admin rights    
   E.g: `rcon exec fungames/competitive_fast` to execute config
-- sm_map <map>: Change map (or use .setup -> next -> "Change map")
+- sm_map <map>: Change map (or use chat command: .setup -> next -> "Change map")
 - sm_mapvote <map1> <map2> <...>: Start map vote for these maps
 - sm_spawnhp @all/@t/@ct <hp>: Set how much health players should start with
 - sm_help <1-10>: See plugin commands

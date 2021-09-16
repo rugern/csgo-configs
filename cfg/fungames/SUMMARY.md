@@ -4,7 +4,7 @@ the Sølvguttene scrim server. Execute a config with
 ```
 rcon exec fungames/<config name>
 ```
-(after running `rcon_password <password` for admin rights)
+(after running `rcon_password <password>` for admin rights)
 
 Reset to default configuration with
 ```
@@ -47,19 +47,19 @@ rcon exec utils/reset
 ## Other
 
 - **Give shield**  (must be executed by each player after each death)          
-  sv_cheats 1; give weapon_shield; 
+  sv_cheats 1; give weapon_shield;   
   [Video](https://www.youtube.com/watch?v=j7GfAbZ0xWM)
 - **Give bump mine** (must be executed by each player after each death)     
-  sv_cheats 1; give weapon_bumpmine; sv_falldamage_scale 0.1; sv_infinite_ammo 1;
+  sv_cheats 1; give weapon_bumpmine; sv_falldamage_scale 0.1; sv_infinite_ammo 1;   
   [Video](https://www.youtube.com/watch?v=-xfapR8Z1p4)
 
 ## Plugin commands
 
 - **competitive_1000hp**
-  Players have 1000hp: `sm_spawnhp @all 1000`
-  [Plugin](https://forums.alliedmods.net/showthread.php?p=2737147)    
+  Players have 1000hp: `sm_spawnhp @all 1000; rcon mp_restartgame 1`    
+  [Plugin](https://forums.alliedmods.net/showthread.php?p=2737147)
   [Video](https://www.youtube.com/watch?v=57yCeKge8LI&list=PLHF999pjo89OlX1XaBLqpl-5728A-P86A&index=8)    
 - **competitive_1hp**     
-  Players have 1hp and no nades: `sm_spawnhp @all 1; rcon mp_buy_allow_grenades 0; rcon mp_restartgame 1` 
-  [Plugin](https://forums.alliedmods.net/showthread.php?p=2737147)    
+  Players have 1hp and no nades: `sm_spawnhp @all 1; rcon mp_buy_allow_grenades 0; rcon mp_restartgame 1`   
+  [Plugin](https://forums.alliedmods.net/showthread.php?p=2737147)
   [Video](https://www.youtube.com/watch?v=Y0BwhnJrkgk&list=PLHF999pjo89OlX1XaBLqpl-5728A-P86A&index=10)    

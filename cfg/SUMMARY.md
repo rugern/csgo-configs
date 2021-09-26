@@ -11,28 +11,28 @@ rcon exec reset
 ```
 
 ## Configurations
-- **competitive_respawn.cfg**      
+- **fungame_respawn.cfg**      
   Players instantly respawn on death. Must defuse or explode bomb to win.
   [Video](https://www.youtube.com/watch?v=yoxFBcG6whA&t=1s)
-- **competitive_headshots.cfg**  
+- **fungame_headshots.cfg**  
   Only headshots.
   [Video](https://www.youtube.com/watch?v=fUnvsM2U2bM&list=PLHF999pjo89OlX1XaBLqpl-5728A-P86A&index=18)
-- **competitive_no_hud.cfg**  
+- **fungame_no_hud.cfg**  
   No HUD to help you.
   [Video](https://www.youtube.com/watch?v=8G30qRP7At0&list=PLHF999pjo89OlX1XaBLqpl-5728A-P86A&index=19)
-- **competitive_quake.cfg**    
+- **fungame_quake.cfg**    
   With bhops and no recoil.
   [Video](https://www.youtube.com/watch?v=4aM0YJjQKEs&list=PLHF999pjo89OlX1XaBLqpl-5728A-P86A&index=21)
-- **competitive_vampire.cfg**    
+- **fungame_vampire.cfg**    
   Players lose health on missed shots and gain health on hitting shots.
   [Video](https://www.youtube.com/watch?v=oRcE3fJFwDI&list=PLHF999pjo89OlX1XaBLqpl-5728A-P86A&index=22)
-- **competitive_random_spawns.cfg**     
+- **fungame_random_spawns.cfg**     
   Players spawn in random positions (hopefully without line of sight to eachother).
   [Video](https://www.youtube.com/watch?v=MEGmQcZ4q8E&list=PLHF999pjo89OlX1XaBLqpl-5728A-P86A&index=25)
-- **competitive_accurate_weapons.cfg**     
+- **fungame_accurate_weapons.cfg**     
   Weapons have no recoil or spread.
   [Video](https://www.youtube.com/watch?v=vPdkgaHnZuM&list=PLHF999pjo89OlX1XaBLqpl-5728A-P86A&index=7)
-- **competitive_fast.cfg**      
+- **fungame_fast.cfg**      
   Players move twice as fast as normal.
   [Video](https://www.youtube.com/watch?v=K2BMj-SsN18&list=PLHF999pjo89OlX1XaBLqpl-5728A-P86A&index=9)
 - **fungame_invisible.cfg**    
@@ -58,11 +58,11 @@ rcon exec reset
 
 ## Plugin commands
 
-- **competitive_1000hp**
+- **fungame with 1000hp**
   Players have 1000hp: `sm_spawnhp @all 1000; rcon mp_restartgame 1`    
   [Plugin](https://forums.alliedmods.net/showthread.php?p=2737147)
   [Video](https://www.youtube.com/watch?v=57yCeKge8LI&list=PLHF999pjo89OlX1XaBLqpl-5728A-P86A&index=8)    
-- **competitive_1hp**     
+- **fungame with 1hp**     
   Players have 1hp and no nades: `sm_spawnhp @all 1; rcon mp_buy_allow_grenades 0; rcon mp_restartgame 1`   
   [Plugin](https://forums.alliedmods.net/showthread.php?p=2737147)
   [Video](https://www.youtube.com/watch?v=Y0BwhnJrkgk&list=PLHF999pjo89OlX1XaBLqpl-5728A-P86A&index=10)    

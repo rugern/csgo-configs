@@ -22,7 +22,7 @@ Useful commands for the Sølvguttene scrim server running splewis/csgo-pug-setup
 ### Console commands
 - rcon_password <password>: Get admin rights on server
 - rcon <command>: Prefix all commands with "rcon" to use admin rights    
-  E.g: `rcon exec fungames/competitive_fast` to execute config
+  E.g: `rcon exec fungame_fast` to execute config
 - sm_map <map>: Change map
 - sm_mapvote <map1> <map2> <...>: Start map vote for these maps
 - sm_spawnhp @all/@t/@ct <hp>: Set how much health players should start with

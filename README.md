@@ -1,11 +1,12 @@
 # csgo-configs
-A collection of CS:GO config files and links for different game modes, training, and maps.
+A collection of CS:GO config files, commands, maps and useful info for either running things locally or on the Sølvguttene scrim server.
 
 ## Configs
 Check [SUMMARY.md](https://github.com/rugern/csgo-configs/blob/main/cfg/SUMMARY.md) for an overview of configs
-for fungames, practice, etc
+and commands for fungames, practice, etc.
 
 ## Plugin commands
+Useful commands for the Sølvguttene scrim server running splewis/csgo-pug-setup and sethealth plugin
 
 ### Chat commands
 - .setup, begins the setup phase and sets the pug leader
@@ -27,5 +28,6 @@ for fungames, practice, etc
 - sm_spawnhp @all/@t/@ct <hp>: Set how much health players should start with
 - sm_help <1-10>: See plugin commands
 
-## Collection of workshop maps
-https://steamcommunity.com/sharedfiles/filedetails/?id=2600005602
+## Collection of fun workshop maps
+The following collection is automatically downloaded on the scrim server: https://steamcommunity.com/sharedfiles/filedetails/?id=2600005602
+They do not automatically show up in map votes and map menus, but you can change to any map manually with e.g. `sm_map <map name>` as long as it's downloaded.

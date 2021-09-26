@@ -31,6 +31,10 @@
   Low gravity environment with knife and scout only.
 - **fungame_pool_day.cfg**    
   Some sensible rules for having a fun day by the pool.
+- **training.cfg**
+  Config for grenade practice
+- **reset.cfg**
+  Resets all effects from other configs
 
 ## Other
 

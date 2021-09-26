@@ -1,14 +1,13 @@
 # Fungames overview
-Here's an overview of all fungame config files and other useful commands available on
-the Sølvguttene scrim server. Execute a config with
+All configs are available on scrim server. Execute a config with
 ```
-rcon exec fungames/<config name>
+rcon exec <config name>
 ```
 (after running `rcon_password <password>` for admin rights)
 
 Reset to default configuration with
 ```
-rcon exec utils/reset
+rcon exec reset
 ```
 
 ## Configurations
